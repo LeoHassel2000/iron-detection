@@ -36,8 +36,3 @@ func AppStateFn(cdc codec.JSONCodec, simManager *module.SimulationManager) simty
 		NumBonded:    numInitiallyBonded,
 		GenTimestamp: genesisTimestamp,
   
-//func InitGenesis(ctx sdk.Context, k keeper.Keeper, genState types.GenesisState) {
-	// Set all the redeemInfo
-	//for _, elem := range genState.RedeemInfoList {
-	//	k.SetRedeemInfo(ctx, elem)
-	//}
